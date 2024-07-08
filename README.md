@@ -44,7 +44,7 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display, OTA-Funktion und WEB-Serv
 
 ![Bild](pic/Smonitor1.png)
 
-### Am Display wird die WLAAN-Verbindung angezeigt.
+### Am Display wird die WLAN-Verbindung angezeigt.
 
 ![Bild](pic/TFT0.png)
 
