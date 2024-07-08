@@ -76,7 +76,7 @@ Der ausgewählte Sender wird als aktiver Sender übernommen. Ist das Radio gerad
 Die Anzeige kehrt zur Zeitanzeige zurück.
 
 
-## Erfolgt 10 Sekunden keine Aktivität, so kehrt die Anzeige automatisch zur Zeitanzeige zurück. Alle Einstellungsänderungen werden in den Präferenzen gespeichert. Die Bedienungsseite wird immer mit voller Helligkeit dargestellt.
+### Erfolgt 10 Sekunden keine Aktivität, so kehrt die Anzeige automatisch zur Zeitanzeige zurück. Alle Einstellungsänderungen werden in den Präferenzen gespeichert. Die Bedienungsseite wird immer mit voller Helligkeit dargestellt.
 
 ![Bild](pic/TFT1.png)
 
