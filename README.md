@@ -86,15 +86,17 @@ Erfolgt 10 Sekunden keine Aktivität, so kehrt die Anzeige automatisch zur Zeita
 
 ![Bild](pic/OTA.png)
 
-### Im oberen Teil können die Zugangsdaten und der NTP-Server geändert werden. Die Änderungen werden erst dann wirksam, wenn der Knopf „Speichern“ geklickt wurde. Mit dem Knopf „Neustart“ kann ein Neustart ausgelöst werden. Als Nächstes folgen die Weckzeiten. Es können zwei Weckzeiten eingestellt werden. Für jede der Weckzeiten können die Wochentage gewählt werden, an denen die Weckzeiten anzuwenden sind. Die Dropdown-Liste darunter enthält alle Sender der Senderliste. Auswählbare Sender haben vor dem Namen einen schwarzen Punkt. Im Formular darunter werden die Daten zur ausgewählten Station angezeigt und können geändert werden. Ist das Häkchen bei „Verwenden“ nicht gesetzt, kann die Station im Gerät nicht ausgewählt werden. Da manche URLs nicht funktionieren, sollte eine neue URL mit dem Knopf „Testen“ getestet werden. Ein Klicken auf diesen Knopf startet die Wiedergabe der URL am Gerät. Am Gerät muss das Radio dabei zum Testen eingeschaltet sein. Sollte die Wiedergabe nicht funktionieren, wird sofort wieder auf den aktuellen Sender zurückgeschaltet und eine Meldung angezeigt. Ist die Wiedergabe möglich, wird eine Box mit einem Knopf angezeigt. Klicken auf diesen Knopf schließt die Box und beendet den Test. Es wird wieder die aktuelle Station wiedergegeben. Im Eingabefeld „Position“ wird die Position der ausgewählten Station innerhalb der Senderliste angezeigt. Durch eine Änderung dieses Wertes, kann die Station auf die angegebene Position verschoben werden. Mit dem Knopf „Ändern“ können die Änderungen für die ausgewählte Station dauerhaft geändert werden.
+Im oberen Teil können die Zugangsdaten und der NTP-Server geändert werden. Die Änderungen werden erst dann wirksam, wenn der Knopf „Speichern“ geklickt wurde. Mit dem Knopf „Neustart“ kann ein Neustart ausgelöst werden. Als Nächstes folgen die Weckzeiten. Es können zwei Weckzeiten eingestellt werden. Für jede der Weckzeiten können die Wochentage gewählt werden, an denen die Weckzeiten anzuwenden sind. Die Dropdown-Liste darunter enthält alle Sender der Senderliste. Auswählbare Sender haben vor dem Namen einen schwarzen Punkt. Im Formular darunter werden die Daten zur ausgewählten Station angezeigt und können geändert werden. Ist das Häkchen bei „Verwenden“ nicht gesetzt, kann die Station im Gerät nicht ausgewählt werden. Da manche URLs nicht funktionieren, sollte eine neue URL mit dem Knopf „Testen“ getestet werden. Ein Klicken auf diesen Knopf startet die Wiedergabe der URL am Gerät. Am Gerät muss das Radio dabei zum Testen eingeschaltet sein. Sollte die Wiedergabe nicht funktionieren, wird sofort wieder auf den aktuellen Sender zurückgeschaltet und eine Meldung angezeigt. Ist die Wiedergabe möglich, wird eine Box mit einem Knopf angezeigt. Klicken auf diesen Knopf schließt die Box und beendet den Test. Es wird wieder die aktuelle Station wiedergegeben. Im Eingabefeld „Position“ wird die Position der ausgewählten Station innerhalb der Senderliste angezeigt. Durch eine Änderung dieses Wertes, kann die Station auf die angegebene Position verschoben werden. Mit dem Knopf „Ändern“ können die Änderungen für die ausgewählte Station dauerhaft geändert werden.
 
 
 
 
 ---
+
 <div style="position:absolute; left:2cm; ">   
 <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
 </div>  
+
 ---
 
 
