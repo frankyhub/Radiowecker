@@ -6,7 +6,7 @@ Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier, OTA und WEB-Server
 ![Bild](pic/TFT2.png)
 
 ## Story
-Das Repo beschreibt einen Radiowecker mit OTA-Funktion und WEB-Server. Die Bedienung erfolgt über den 2,8" Touchscreen oder dem WEB-Server. Es gibt zwei Weckzeiten, welche beliebigen Wochentagen zugeordnet werden können. Natürlich ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR kann die Display-Helligkeit automatisch an die Raumhelligkeit angepasst werden. Lautstärke, Einschlafzeit, Display-Helligkeit und Senderwahl können über den Touchscreen eingestellt werden. Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
+Das Repo beschreibt einen Radiowecker mit TFT-Display, OTA-Funktion und WEB-Server. Es gibt zwei Weckzeiten, welche beliebigen Wochentagen zugeordnet werden können. Natürlich ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR kann die Display-Helligkeit automatisch an die Raumhelligkeit angepasst werden. Lautstärke, Einschlafzeit, Display-Helligkeit und Senderwahl können über den Touchscreen eingestellt werden. Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
 
 ![Bild](pic/TFT1.png)
 
