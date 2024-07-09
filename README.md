@@ -32,6 +32,9 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Es gibt zw
 | T-IRQ  | GPIO27  | 
 |  --- |  --- | 
 
+
+![Bild](pic/Schaltplan.png)
+
 ### Nach anlegen der Versorgungsspannung startet der Accesspoit. In den Einstellungen des Handys oder Tablets wird das WLAN "Radiowecker" ausgewählt 
 
 ![Bild](pic/Apoint1.png)
