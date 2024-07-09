@@ -1,12 +1,12 @@
 <a name="oben"></a>
 
 # Radiowecker
-Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier, OTA und WEB-Server
+Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier und WEB-Server
 
 ![Bild](pic/TFT2.png)
 
 ## Story
-Das Repo beschreibt einen Radiowecker mit TFT-Display, OTA-Funktion und WEB-Server. Es gibt zwei Weckzeiten, welche beliebigen Wochentagen zugeordnet werden können. Natürlich ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR kann die Display-Helligkeit automatisch an die Raumhelligkeit angepasst werden. Lautstärke, Einschlafzeit, Display-Helligkeit und Senderwahl können über den Touchscreen eingestellt werden. Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
+Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Es gibt zwei Weckzeiten, welche beliebigen Wochentagen mit Weckzeiten zugeordnet werden können. Es ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR könnte man die Display-Helligkeit automatisch an die Raumhelligkeit angepassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
 
 ![Bild](pic/TFT1.png)
 
@@ -36,7 +36,7 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display, OTA-Funktion und WEB-Serv
 
 ![Bild](pic/Apoint1.png)
 
-### und über einen Browser die URL 192.168.4.1 eingegeben und der Neutart-Button betätigt.
+### und über einen Browser die URL 192.168.4.1 eingegeben und der Neustart-Button betätigt.
 
 ![Bild](pic/Apoint2.png)
 
@@ -44,7 +44,7 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display, OTA-Funktion und WEB-Serv
 
 ![Bild](pic/Smonitor1.png)
 
-### Am Display wird die WLAN-Verbindung angezeigt.
+### Am Display wird beim Startvorgang die WLAN-Verbindung angezeigt.
 
 ![Bild](pic/TFT0.png)
 
@@ -80,15 +80,13 @@ Erfolgt 10 Sekunden keine Aktivität, so kehrt die Anzeige automatisch zur Zeita
 
 ![Bild](pic/TFT1.png)
 
-## OTA-Funktion
+## Konfiguration
 
 ### Über die URL http://radiowecker/ sollte die Konfigurationsseite abrufbar sein. 
 
 ![Bild](pic/OTA.png)
 
-Im oberen Teil können die Zugangsdaten und der NTP-Server geändert werden. Die Änderungen werden erst dann wirksam, wenn der Knopf „Speichern“ geklickt wurde. Mit dem Knopf „Neustart“ kann ein Neustart ausgelöst werden. Als Nächstes folgen die Weckzeiten. Es können zwei Weckzeiten eingestellt werden. Für jede der Weckzeiten können die Wochentage gewählt werden, an denen die Weckzeiten anzuwenden sind. Die Dropdown-Liste darunter enthält alle Sender der Senderliste. Auswählbare Sender haben vor dem Namen einen schwarzen Punkt. Im Formular darunter werden die Daten zur ausgewählten Station angezeigt und können geändert werden. Ist das Häkchen bei „Verwenden“ nicht gesetzt, kann die Station im Gerät nicht ausgewählt werden. Da manche URLs nicht funktionieren, sollte eine neue URL mit dem Knopf „Testen“ getestet werden. Ein Klicken auf diesen Knopf startet die Wiedergabe der URL am Gerät. Am Gerät muss das Radio dabei zum Testen eingeschaltet sein. Sollte die Wiedergabe nicht funktionieren, wird sofort wieder auf den aktuellen Sender zurückgeschaltet und eine Meldung angezeigt. Ist die Wiedergabe möglich, wird eine Box mit einem Knopf angezeigt. Klicken auf diesen Knopf schließt die Box und beendet den Test. Es wird wieder die aktuelle Station wiedergegeben. Im Eingabefeld „Position“ wird die Position der ausgewählten Station innerhalb der Senderliste angezeigt. Durch eine Änderung dieses Wertes, kann die Station auf die angegebene Position verschoben werden. Mit dem Knopf „Ändern“ können die Änderungen für die ausgewählte Station dauerhaft geändert werden.
-
-
+Im oberen Teil sieht man die WLAN-Zugangsdaten und den NTP-Server. Mit dem "Speichern-Button" werden Änderungen wirksam. Aucu ein Neustart ist möglich. Als Nächstes folgen die Weckzeiten. Zwei Weckzeiten sind möglich. Für jede der Weckzeiten sind die Wochentage wählbar, an denen die Weckzeiten anzuwenden sind. Die Dropdown-Liste darunter enthält alle Sender der Senderliste. Auswählbare Sender haben vor dem Namen einen schwarzen Punkt. Im Formular darunter werden die Daten zur ausgewählten Station angezeigt und können geändert werden. Ist das Häkchen bei „Verwenden“ nicht gesetzt, kann die Station im Gerät nicht aktiv. Da manche URLs nicht funktionieren, sollte eine neue URL mit dem Knopf „Testen“ erstmal testen. Ein Klicken auf diesen Button startet die Wiedergabe der URL am eingeschalteten Gerät. Sollte die Wiedergabe nicht funktionieren, wird wieder auf den aktuellen Sender zurückgeschaltet und eine Meldung angezeigt. Ist die Wiedergabe möglich, wird eine Box mit einem Knopf angezeigt. Klicken auf diesen Knopf schließt die Box und beendet den Test. Es wird wieder die aktuelle Station wiedergegeben. Im Eingabefeld „Position“ wird die Position der ausgewählten Station innerhalb der Senderliste angezeigt. Durch eine Änderung dieses Wertes, kann die Station auf die angegebene Position verschoben und mit dem Knopf „Ändern“ können die Änderungen für die ausgewählte Station dauerhaft geändert werden.
 
 
 ---
