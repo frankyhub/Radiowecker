@@ -10,7 +10,7 @@ Bedienung über 2,8" Touchscreen und WEB-Server, 3W Klasse D Amplifier
 
 
 ## Story
-Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckzeiten an beliebigen Wochentagen könnenzugeordnet werden. Es ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR könnte man die Display-Helligkeit automatisch an die Raumhelligkeit angepassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Die Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
+Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckzeiten können an beliebigen Wochentagen zugeprdnet werden. Es ist auch ein Einschlaf-Timer vorhanden. Mit einem optionalen LDR könnte man die Display-Helligkeit automatisch an die Raumhelligkeit angepassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Die Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
 
 
 
