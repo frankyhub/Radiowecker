@@ -3,7 +3,7 @@
 # Radiowecker
 Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier und WEB-Server
 
-![Bild](pic/rw1.png) 
+
 
 ![Bild](pic/rw2.png) 
 
@@ -103,6 +103,9 @@ Erfolgt 10 Sekunden keine Aktivität, so kehrt die Anzeige automatisch zur Zeita
 
 Im oberen Teil sieht man die WLAN-Zugangsdaten und den NTP-Server. Mit dem "Speichern-Button" werden Änderungen wirksam. Auch ein Neustart ist möglich. Als Nächstes folgen die Weckzeiten. Zwei Weckzeiten sind möglich. Für jede der Weckzeiten sind die Wochentage wählbar, an denen die Weckzeiten anzuwenden sind. Die Dropdown-Liste darunter enthält alle Sender der Senderliste. Auswählbare Sender haben vor dem Namen einen schwarzen Punkt. Im Formular darunter werden die Daten zur ausgewählten Station angezeigt und können geändert werden. Ist das Häkchen bei „Verwenden“ nicht gesetzt, ist die Station im Gerät nicht aktiv. Da manche URLs nicht funktionieren, sollte man eine neue URL erstmal testen. Ein Klicken auf den "Testen-Button" startet die Wiedergabe der URL am eingeschalteten Gerät. Sollte die Wiedergabe nicht funktionieren, wird wieder auf den aktuellen Sender zurückgeschaltet und eine Meldung angezeigt. Ist die Wiedergabe möglich, wird eine Box mit einem Knopf angezeigt. Klicken auf diesen Knopf schließt die Box und beendet den Test. Es wird wieder die aktuelle Station wiedergegeben. Im Eingabefeld „Position“ wird die Position der ausgewählten Station innerhalb der Senderliste angezeigt. Durch eine Änderung dieses Wertes, kann die Station auf die angegebene Position verschoben und mit dem Knopf „Ändern“ können die Änderungen für die ausgewählte Station dauerhaft geändert werden.
 
+---
+
+![Bild](pic/rw1.png) 
 
 ---
 
