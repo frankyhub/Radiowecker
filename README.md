@@ -3,7 +3,7 @@
 # Radiowecker
 Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier und WEB-Server
 
-![Bild](pic/Trw1.png) ![Bild](pic/rw2.png)
+![Bild](pic/rw1.png) ![Bild](pic/rw2.png)
 
 ![Bild](pic/TFT2.png)
 
