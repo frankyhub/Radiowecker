@@ -5,6 +5,8 @@ Bedienung über 2,8" Touchscreen, 3W Klasse D Amplifier und WEB-Server
 
 ![Bild](pic/rw1.png) 
 
+![Bild](pic/rw2.png) 
+
 
 
 ## Story
