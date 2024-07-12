@@ -75,8 +75,8 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckz
 
 ## Bedienung
 
-### Radio ei/aus
-Das Radio wird ein- oder ausgeschaltet. Die Anzeige kehrt zur Zeitanzeige zurück. Wurde das Radio eingeschaltet, erscheint unter der Zeitanzeige der Radioblock mit dem Sendernamen und den Metadaten z.B. Name des geraden gespielten Liedes, wenn diese der Sender mit überträgt. Das ist leider nicht immer der Fall.
+### Radio ein/aus
+Das Radio wird ein- oder ausgeschaltet. Die Anzeige kehrt zur Zeitanzeige zurück. Wurde das Radio eingeschaltet, erscheint unter der Zeitanzeige der Radioblock mit dem Sendernamen.
 
 ### Einschlaftimer
 Die Einschlafzeit wird gestartet. Falls das Radio nicht eingeschaltet ist, wird es eingeschaltet. Die Anzeige kehrt zur Zeitanzeige zurück. Wenn die eingestellte Einschlafzeit vorüber ist, wird das Radio automatisch ausgeschaltet.
@@ -109,8 +109,7 @@ Im oberen Teil sieht man die WLAN-Zugangsdaten und den NTP-Server. Mit dem "Spei
 
 ---
 
-<div style="position:absolute; left:2cm; ">   
-<ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
+<div style="position:absolute; left:2cm; "> <ol class="breadcrumb" style="border-top: 2px solid black;border-bottom:2px solid black; height: 45px; width: 900px;"> <p align="center"><a href="#oben">nach oben</a></p></ol>
 </div>  
 
 ---
