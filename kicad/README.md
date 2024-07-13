@@ -1,1 +1,1 @@
-![Bild](pic/shield.png)
+![Bild](../pic/shield.png)
