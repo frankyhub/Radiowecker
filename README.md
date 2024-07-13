@@ -41,6 +41,8 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckz
 
 ![Bild](pic/Schaltplan.png)
 
+![Bild](pic/shield.png)
+
 ### Gehäuse
 
 ![Bild](pic/lbrn.png)
