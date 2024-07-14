@@ -53,6 +53,8 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckz
 
 ### Nach anlegen der Versorgungsspannung startet der Accesspoit. In den Einstellungen des Handys oder Tablets wird das WLAN "Radiowecker" ausgewählt 
 
+![Bild](pic/notcon.png)
+
 ![Bild](pic/Apoint1.png)
 
 ### und über einen Browser die URL 192.168.4.1 eingegeben und der Neustart-Button betätigt.
