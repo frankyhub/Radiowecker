@@ -1,4 +1,4 @@
-22928047910430745
+22952171645428892
 !Goody
 1N4147_P7.62mm_Horizontal
 Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
@@ -42,6 +42,48 @@ SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET 
 5
 2
 !Goody
+BAT-HLD-SMD-Blech FS
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+3
+2
+!Goody
+BAT-HLD-SMD-Blech FS_60
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+3
+2
+!Goody
+BAT-HLD-SMD-Blech FS_300
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+3
+2
+!Goody
+BAT-HLD-SMD-Blech_1
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+5
+2
+!Goody
+BAT-HLD-SMD-Blech_60
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+5
+2
+!Goody
+BAT-HLD-SMD-Blech_360
+SMD-BAT-KHF
+SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
+0
+5
+2
+!Goody
 BAT-HLD-SMD-CR1225
 SMD-BAT-KHF
 SMT SMD Knopf Knopfzelle CR2032 Batteriehalter, CR2032 Batterie 10 Stück / SET          https://www.ebay.de/itm/392890987952
@@ -73,6 +115,41 @@ BC558
 BatteryHolder9V
 https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
 9V Battery Holder
+0
+2
+2
+!Goody
+BatteryHolder9V_1
+https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
+9V Battery Holder
+0
+2
+2
+!Goody
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+!Goody
+C_1812_4532Metric_0
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+!Goody
+C_1812_4532Metric_60
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+!Goody
+C_1812_4532Metric_300
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
 0
 2
 2
@@ -210,6 +287,13 @@ Micro_SchalterKHF
 3
 3
 !Goody
+Micro_SchalterKHF_FS
+Micro_SchalterKHF
+
+0
+3
+3
+!Goody
 Micro_SchalterWürth
 Micro_SchalterKHF
 
@@ -317,6 +401,20 @@ SMD-Schalter
 !Goody
 SMDLED
 SMDLED
+
+0
+2
+2
+!Goody
+SMDLED_1
+SMDLED
+
+0
+2
+2
+!Goody
+SW-200D
+
 
 0
 2

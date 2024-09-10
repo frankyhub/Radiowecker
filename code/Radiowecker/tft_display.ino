@@ -228,7 +228,9 @@ void setup_display() {
   pinMode(LDR,INPUT);
   lastldr = analogRead(LDR);
   setBGLight(100);
+
   tft.begin();
+  tft.setTextColor(ILI9341_WHITE);
   tft.fillScreen(ILI9341_BLACK);
   tft.setRotation(3);
   tft.setFont(&AT_Bold12pt7b);
@@ -310,7 +312,7 @@ void textInBox(uint16_t x, uint16_t y, uint16_t w, uint16_t h, const char* text,
 
 //the clock display will be updated. To avoid flicker, only changed parts will be redrawn
 //is the parameter redraw true, the complete content will be redrawn
-void updateTime(boolean redraw) {
+void updateTime(boolean whiteraw) { //void updateTime(boolean redraw) {
   char tim[40];
   //these variables are static which means they will be initialized on the first call and keep there values
   static char lastdate[40] = "";
@@ -319,7 +321,7 @@ void updateTime(boolean redraw) {
   if (getLocalTime(&ti)) {
     sprintf(tim,"%s %i. %s %i",days[ti.tm_wday],ti.tm_mday,months[ti.tm_mon],ti.tm_year + 1900);
     //if redraw is true or the date has changed, the date line will be redrawn
-    if (redraw || (strcmp(tim,lastdate) != 0)) {
+    if (whiteraw || (strcmp(tim,lastdate) != 0)) {  //    if (redraw || (strcmp(tim,lastdate) != 0)) {
       strcpy(lastdate,tim);
       textInBox(0,0,320,25,tim,ALIGNCENTER,true,0xC000,ILI9341_BLACK,1);
     }
@@ -328,10 +330,11 @@ void updateTime(boolean redraw) {
     Serial.printf("Zeit = %s\n",tim);
     //we iterate over the time string
     //if redraw is true or a number has changed this single number will be redrawn
+    tft.setTextColor(ILI9341_WHITE);
     for (uint8_t i = 0; i<5; i++) {
       z = (i==2)?10:tim[i]-'0';
       Serial.printf("Ziffer %i %c = %c\n",z,tim[i],lasttime[i]);
-      if ((z<11) && (redraw || (tim[i] != lasttime[i]))) {
+      if ((z<11) && (whiteraw || (tim[i] != lasttime[i]))) {   //      if ((z<11) && (redraw || (tim[i] != lasttime[i]))) {
         tft.drawRGBBitmap(30+i*55,30,ziffern_rot[z],50,70);
 
        
@@ -529,7 +532,7 @@ void showDebugInfo(int16_t v1, int16_t v2, int16_t v3){
 void showClock() {
     start_conf = 0;
     setBGLight(bright);
-    tft.fillScreen(ILI9341_BLACK);
+    tft.fillScreen(ILI9341_BLACK); 
     updateTime(true);
     if (radio) showRadio();
     showNextAlarm();

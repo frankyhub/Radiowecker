@@ -734,7 +734,7 @@
     (pin "8" (uuid 77400483-45b4-47f4-a8ea-6fcdfb8a9736))
     (pin "9" (uuid 27f8a975-92c6-4d79-8c57-fe90e8d4d45b))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U2") (unit 1)
         )
@@ -759,7 +759,7 @@
     )
     (pin "1" (uuid 49464b4f-66af-4cf1-aa7a-6490c7502c1a))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U12") (unit 1)
         )
@@ -784,7 +784,7 @@
     )
     (pin "1" (uuid 378be950-6ed7-426c-a389-9e6f4bf4fc2d))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U8") (unit 1)
         )
@@ -809,7 +809,7 @@
     )
     (pin "1" (uuid cf8bba08-ef27-4878-ae63-8b8ae3ca8114))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U11") (unit 1)
         )
@@ -834,7 +834,7 @@
     )
     (pin "1" (uuid 9e5b9865-5535-433a-85d0-c8b563e2b524))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U5") (unit 1)
         )
@@ -859,7 +859,7 @@
     )
     (pin "1" (uuid 2b036899-4479-4472-82e6-b9ac938101c5))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U9") (unit 1)
         )
@@ -921,7 +921,7 @@
     (pin "8" (uuid f8defe0c-c9b2-4323-825f-870a579b5c33))
     (pin "9" (uuid 91c8fc27-a992-403f-82d6-e0607a77b295))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U1") (unit 1)
         )
@@ -946,7 +946,7 @@
     )
     (pin "1" (uuid 87b36c1f-3dfe-47df-bbd7-6290d54b1a3b))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U4") (unit 1)
         )
@@ -971,7 +971,7 @@
     )
     (pin "1" (uuid c68c1dde-aa28-45ac-b286-8c897ab20ed5))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U10") (unit 1)
         )
@@ -996,7 +996,7 @@
     )
     (pin "1" (uuid 74ee3efa-c784-449c-b9c3-23adb1fd7bdb))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U6") (unit 1)
         )
@@ -1021,7 +1021,7 @@
     )
     (pin "1" (uuid 7647a68f-b67f-43c0-9542-3195d5099334))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U13") (unit 1)
         )
@@ -1046,7 +1046,7 @@
     )
     (pin "1" (uuid e3fe4929-ad2a-4d7a-b65e-fb49df026c89))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U14") (unit 1)
         )
@@ -1071,7 +1071,7 @@
     )
     (pin "1" (uuid 1c678fb8-6c5a-43d8-a42e-b275fcf4766a))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U15") (unit 1)
         )
@@ -1096,7 +1096,7 @@
     )
     (pin "1" (uuid 2e1e6feb-1250-4ff5-8966-fb1652c2ceb4))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U7") (unit 1)
         )
@@ -1121,7 +1121,7 @@
     )
     (pin "1" (uuid ed8d4118-f579-45c4-83ea-b8403142c34b))
     (instances
-      (project "ESP32-TFT"
+      (project "ESP32_TFT2-8"
         (path "/0fd35f4d-7757-4c42-9063-d1a7d3d8b5fe"
           (reference "U3") (unit 1)
         )
