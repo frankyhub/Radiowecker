@@ -1,16 +1,6 @@
 <a name="oben"></a>
 
 
-<div align="center">
-
-|[:skull:ISSUE](https://github.com/frankyhub/Radiowecker/issues?q=is%3Aissue)|[:grey_question:WiKi](https://github.com/frankyhub/Radiowecker/wiki)|
-|--|--|
-
-</div>
-
----
----
-
 Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
 
 # Radiowecker
