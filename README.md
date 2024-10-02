@@ -32,7 +32,7 @@ Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckz
 | DC | NC  |
 | SDI  | GPIO23    |
 | SCK  |  GPIO18  |
-|  LED |  NC  |
+|  LED |  GPIO15  |
 |  MISO | GPIO19   | 
 | T-CLK  | GPIO18 |    
 | T-CS  | GPIO14  | 
