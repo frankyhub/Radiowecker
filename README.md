@@ -1,7 +1,5 @@
 <a name="oben"></a>
 
-Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
-
 
 <div align="center">
 
@@ -12,13 +10,7 @@ Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog
 
 
 
-
-
-
-
-
-
-
+Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
 
 # Radiowecker
 Bedienung über 2,8" Touchscreen und WEB-Server, 3W Klasse D Amplifier
