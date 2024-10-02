@@ -2,6 +2,25 @@
 
 Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
 
+
+<div align="center">
+
+|[:skull:ISSUE](https://github.com/frankyhub/Radiowecker/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Radiowecker/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Radiowecker/wiki)|
+|--|--|--|
+| | | |
+|![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/finaldie/skull.svg)[](https://github.com/frankyhub/Radiowecker/pulls)|[<img src="https://img.shields.io/github/license/finaldie/skull.svg">](https://github.com/frankyhub/Radiowecker/blob/main/LICENSE.md)| ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
+</div>
+
+
+
+
+
+
+
+
+
+
+
 # Radiowecker
 Bedienung über 2,8" Touchscreen und WEB-Server, 3W Klasse D Amplifier
 
