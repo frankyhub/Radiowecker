@@ -68,7 +68,7 @@ uint8_t alarmday1 = 0B00111110;   //valid weekdays (example 00111110 means monda
 uint16_t alarm2 = 480;            //second alarm time 8:00
 uint8_t alarmday2 = 0B01000001;   //valid week days (example 01000001 means sunday and saturday)
 uint8_t actStation = 0;           //index for current station in station list used for streaming 
-uint8_t bright = 25;              //brightness in percent. 0 means use LDR to control brightness
+uint8_t bright = 0;              //brightness in percent. 0 means use LDR to control brightness
 //other global variables
 uint32_t lastchange = 0;          //time of last selection change
 uint8_t snoozeWait = 0;           //remaining minutes fro snooze
