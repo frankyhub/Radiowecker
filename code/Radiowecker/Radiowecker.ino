@@ -4,7 +4,7 @@
 Funktion: Radiowecker mit TFT 2,8", OTA, WEB-Server
 
 **************************************************************************************************
-Version: 8.7.2024
+Version: 2.10.2024
 **************************************************************************************************
 Board: ESP32 DEV Module
 **************************************************************************************************
@@ -38,7 +38,8 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 #define ALIGNRIGHT 2
 
 //pin to be used for light sensor
-#define LDR 36
+#define LDR 34
+#define TFT_LED  15
 
 //instance of prefernces
 Preferences pref;
@@ -51,7 +52,7 @@ typedef struct {
   uint8_t enabled;//flag to activate the station
 } Station;
 
-#define STATIONS 30 //number of stations in the list
+#define STATIONS 19 //number of stations in the list
 
 //gloabal variables
 Station stationlist[STATIONS];    //list of available stations
@@ -125,6 +126,10 @@ void findNextAlarm() {
 
 //setup
 void setup() {
+
+  pinMode(TFT_LED,OUTPUT);
+  pinMode(LDR,INPUT);
+  
   Serial.begin(115200);
   Serial.println("Load preferences");
   title[0] = 0;

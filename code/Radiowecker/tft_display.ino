@@ -1,7 +1,7 @@
 #include "Adafruit_GFX.h"
 #include "Adafruit_ILI9341.h"
 #include "fonts.h"
-
+#include <analogWrite.h>
 //pins for touchscreen
 #define TOUCH_CS 14
 #define TOUCH_IRQ 27
@@ -14,7 +14,7 @@
 #define TFT_CS   5   
 #define TFT_DC   4   
 #define TFT_RST  22
-#define TFT_LED  15
+
 #define TOUCH_CS 14
 #define LED_ON 0
 #define LS 23  // line spacing
@@ -123,7 +123,7 @@ void setBGLight(uint8_t prct) {
   if (LED_ON == 0) ledb = 255 - ledb;
   Serial.printf("percent = %i LED = %i\n",prct,ledb);
   //set the LED
-//  analogWrite(TFT_LED, ledb); //--------------------------------------------------------------------------------------------------
+  analogWrite(TFT_LED, ledb);
 }
 
 //select a station from the stationlist
@@ -224,8 +224,7 @@ void touch_loop() {
 
 //prepare display
 void setup_display() {
-  pinMode(TFT_LED,OUTPUT);
-  pinMode(LDR,INPUT);
+
   lastldr = analogRead(LDR);
   setBGLight(100);
 
