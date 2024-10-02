@@ -146,7 +146,7 @@ void setup() {
   if (pref.isKey("gain")) curGain = pref.getUShort("gain");
   snoozeTime = 30; //default value
   if (pref.isKey("snooze")) snoozeTime = pref.getUShort("snooze");
-  bright = 80; //default value
+  bright = 0; //default value
   if (pref.isKey("bright")) bright = pref.getUShort("bright");
   alarm1 = 390;    //6:30
   if (pref.isKey("alarm1")) alarm1 = pref.getUInt("alarm1");
