@@ -14,7 +14,7 @@
 #define TFT_CS   5   
 #define TFT_DC   4   
 #define TFT_RST  22
-
+#define TFT_LED  15
 #define TOUCH_CS 14
 #define LED_ON 0
 #define LS 23  // line spacing
@@ -88,7 +88,7 @@ void setBrightness(uint16_t value) {
   bright = v;
   //save brightness and adjust slider 
   pref.putUShort("bright",bright);
-  //setBGLight(bright);
+  setBGLight(bright);
   showSlider(71,bright,100);
   sprintf(txt,"%i %%",bright);
   displayMessage(231,52,80,20,txt,ALIGNRIGHT,false,ILI9341_BLACK,ILI9341_LIGHTGREY,1);
@@ -226,7 +226,7 @@ void touch_loop() {
 void setup_display() {
 
   lastldr = analogRead(LDR);
-  setBGLight(100);
+  setBGLight(bright);
 
   tft.begin();
   tft.setTextColor(ILI9341_WHITE);
@@ -471,7 +471,7 @@ void showStationList() {
 
 //display the complete config screen
 void showCommand() {
-    setBGLight(100);
+    setBGLight(bright);
     tft.fillScreen(ILI9341_BLACK);
     showGain();
     showBrigthness();
