@@ -10,6 +10,8 @@
 
 
 <img src="pic/rw2.png" width="500"> 
+<br>
+<img src="pic/TFT1.png" width="250"> <img src="pic/TFT2.png" width="250"> 
 <br> <br>
 
 </div>
@@ -18,10 +20,10 @@
 ## Story
 Das Repo beschreibt einen Radiowecker mit einem 2,8"T FT-Display, einem 3W Klasse D Amplifier und einen WEB-Server. Zwei Weckzeiten können an beliebigen Wochentagen zugeordnet werden. Es ist auch ein Einschlaf-Timer vorhanden. Mit dem LDR kann man die Display-Helligkeit automatisch an die Raumhelligkeit anpassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Die Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
 
-Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
+Nach einer Idee und Vorlage von 
+https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
 
-<img src="pic/TFT1.png" width="250"> <img src="pic/TFT2.png" width="250"> 
-<br> <br>
+
 
 ## Inbetriebnahme
 
