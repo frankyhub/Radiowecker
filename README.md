@@ -5,23 +5,20 @@
 |[:skull:ISSUE](https://github.com/frankyhub/Radiowecker/issues?q=is%3Aissue)|[:speech_balloon: Forum /Discussion](https://github.com/frankyhub/Radiowecker/discussions)|[:grey_question:WiKi](https://github.com/frankyhub/Radiowecker/wiki)||
 |--|--|--|--|
 | | | | |
-<a href="https://github.com/frankyhub/Radiowecker/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Radiowecker)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Radiowecker)|<a href="https://github.com/frankyhub/Radiowecker/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Radiowecker)|<a href="https://github.com/frankyhub/Radiowecker/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Radiowecker)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%2080-blue)|
+<a href="https://github.com/frankyhub/Radiowecker/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/Radiowecker)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/Radiowecker)|<a href="https://github.com/frankyhub/Radiowecker/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/Radiowecker)|<a href="https://github.com/frankyhub/Radiowecker/6eleases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/Radiowecker)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%20074-blue)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/Radiowecker)| <a href="https://github.com/frankyhub/Radiowecker/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/Radiowecker/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)||
-
-</div>
-
-Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
-
-# Radiowecker
-Bedienung über 2,8" Touchscreen und WEB-Server, 3W Klasse D Amplifier
 
 
 <img src="pic/rw2.png" width="500"> 
 <br> <br>
 
-## Story
-Das Repo beschreibt einen Radiowecker mit TFT-Display und WEB-Server. Zwei Weckzeiten können an beliebigen Wochentagen zugeordnet werden. Es ist auch ein Einschlaf-Timer vorhanden. Mit dem LDR kann man die Display-Helligkeit automatisch an die Raumhelligkeit anpassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Die Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
+</div>
 
+
+## Story
+Das Repo beschreibt einen Radiowecker mit einem 2,8"T FT-Display, einem 3W Klasse D Amplifier und einen WEB-Server. Zwei Weckzeiten können an beliebigen Wochentagen zugeordnet werden. Es ist auch ein Einschlaf-Timer vorhanden. Mit dem LDR kann man die Display-Helligkeit automatisch an die Raumhelligkeit anpassen. Über den Touchscreen sind Radio ein/aus, Einschlaftimer mit Einschlafzeit, Wecker ein/aus, Senderauswahl und Lautstärke einstellbar. Die Weckzeiten und die Stream-URLs der Radiostationen werden über ein Web-Interface konfiguriert.
+
+Nach einer Idee und Vorlage von https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/internet-radiowecker-mit-touchscreen.
 
 <img src="pic/TFT1.png" width="250"> <img src="pic/TFT2.png" width="250"> 
 <br> <br>
